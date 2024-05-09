@@ -132,10 +132,14 @@ To **make directories**, run:
 mkdir /path/to/directory
 mkdir -p /path/to/directory_1 [/path/to/directory_2 ...]
 ```
+The -p flag is an option that tells mkdir to create parent directories.
+
 For example:
 ```
 mkdir data/sample_1
-mkdir -p data/sample_2 data/sample_3
+mkdir data/sample_2 data/sample_3
+mkdir old_data/sample_1
+mkdir -p old_data/sample_1
 ```
 
 <br/>
