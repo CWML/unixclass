@@ -521,3 +521,7 @@ In this class, we learned:
 * Essential command line tools for reading and editing files.
 * Fundamentals of the permission system.
 * The basics of automating tasks with shell scripting.
+
+## Further Learning
+Yale Center for Research Computing's Practical Introduction to Linux
+- https://research.computing.yale.edu/training/general-workshops/practical-introduction-linux
