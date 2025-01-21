@@ -27,18 +27,7 @@ Here are a few reasons why the command line is valuable:
 
 ## Getting Basic System Information
 
-## Getting Basic System Information
-
 Here are some commands to explore basic information about your system:
-
----
-
-### Check System Memory Usage
-You can check how much memory (RAM) your system is using by running:
-```bash
-free -h
-```
-This shows the total, used, and free memory on your system in a human-readable format.
 
 ---
 
@@ -48,6 +37,15 @@ To see how much disk space is being used and what’s available, run:
 df -h
 ```
 This command displays storage usage for all mounted filesystems in a human-readable format.
+
+---
+
+### Check System Memory Usage
+You can check how much memory (RAM) your system is using by running:
+```bash
+free -h
+```
+This shows the total, used, and free memory on your system in a human-readable format.
 
 ---
 
