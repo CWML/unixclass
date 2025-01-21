@@ -72,6 +72,12 @@ To see who is currently logged into the system, use:
 who
 ```
 
+### Get system information
+To get some system information, use:
+```bash
+uname
+```
+
 These commands provide a deeper understanding of the system you’re working on, helping you familiarize yourself with its capabilities and current state.
 
 
