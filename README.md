@@ -15,7 +15,6 @@ Here are a few reasons why the command line is valuable:
 2. Each section provides hands-on examples—run them as you read to build familiarity.  
 3. Don’t worry if some concepts feel abstract at first. With practice, you’ll develop the “muscle memory” and confidence to use the command line effectively.
 
----
 ## Outline
 
 * Navigating a *nix operating system with a terminal.
@@ -25,7 +24,7 @@ Here are a few reasons why the command line is valuable:
 * The basics of automating tasks with shell scripting.
 
 <br/>
-
+---
 
 
 ## Getting Basic System Information
