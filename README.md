@@ -1,7 +1,22 @@
 # The Very Basics of the Unix Command Line
 
 <br/>
+## Introduction
 
+Welcome to the **Very Basics of the Unix Command Line**! When you open a terminal (sometimes called a “shell”), you enter a powerful text-based environment that gives you deep control over your operating system. Instead of navigating graphical icons and menus, you’ll type commands to accomplish tasks—everything from creating and organizing files to automating repetitive work.
+
+Here are a few reasons why the command line is valuable:
+
+- **Speed and Efficiency**: Once you learn a few basic commands, many tasks become faster than they would be in a graphical interface.  
+- **Automation**: Shell scripting allows you to compose commands into small programs that handle repetitive tasks.  
+- **Precision**: You have direct control over every file, directory, and process, which is especially helpful for development and data analysis work.
+
+**How this course works**:  
+1. You’ll learn how to navigate Unix-like file systems, manage files and directories, set permissions, and write simple scripts.  
+2. Each section provides hands-on examples—run them as you read to build familiarity.  
+3. Don’t worry if some concepts feel abstract at first. With practice, you’ll develop the “muscle memory” and confidence to use the command line effectively.
+
+---
 ## Outline
 
 * Navigating a *nix operating system with a terminal.
@@ -11,6 +26,8 @@
 * The basics of automating tasks with shell scripting.
 
 <br/>
+
+
 
 ## Getting Basic System Information
 
@@ -392,6 +409,34 @@ head -n 100 covid.csv | tail
 > ```
 
 <br/>
+
+## One Additional Helpful Command: `history`
+
+- In many Unix shells (such as bash, zsh, etc.), the history command is a quick way to review all of the commands you’ve recently executed. This can be incredibly helpful for beginners (and experts!) who want to:
+
+- Recall a command they typed earlier without retyping it completely.
+Learn from mistakes or remember a command’s syntax.
+Search for an older command in the history and reuse it.
+
+### Basic Usage
+
+```bash
+history
+```
+
+- Lists all recenet commands with an associated number
+
+```bash
+!42
+```
+If you see a command you want to repeat (for example, #42 in the history list), you can type !42 to immediately re-run that exact command.
+
+### Searching Through History
+While you can press the Up Arrow to cycle through your commands, you can also search:
+
+1. Ctrl + R: Press Ctrl + R, then begin typing part of a previous command. It will do a reverse search in your history to find a matching command.
+2. Press Ctrl + R multiple times to navigate through more matches.
+3. Press Enter to re-run the selected command.
 
 ## Getting Started with Shell Scripting
 
