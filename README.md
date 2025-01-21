@@ -27,10 +27,55 @@ Here are a few reasons why the command line is valuable:
 
 ## Getting Basic System Information
 
-You can get some basic **system information** by running the command `uname`:
+## Getting Basic System Information
+
+Here are some commands to explore basic information about your system:
+
+---
+
+### Check System Memory Usage
+You can check how much memory (RAM) your system is using by running:
+```bash
+free -h
 ```
-uname
+This shows the total, used, and free memory on your system in a human-readable format.
+
+---
+
+### View Disk Space Usage
+To see how much disk space is being used and what’s available, run:
+```bash
+df -h
 ```
+This command displays storage usage for all mounted filesystems in a human-readable format.
+
+---
+
+### See System Uptime
+To find out how long the system has been running and its current load, use:
+```bash
+uptime
+```
+This displays the current time, uptime, the number of logged-in users, and the system load averages for the past 1, 5, and 15 minutes.
+
+---
+
+### Get CPU Information
+To view details about the CPU(s) on your system, such as the number of cores and architecture, run:
+```bash
+lscpu
+```
+
+---
+
+### Check Logged-in Users
+To see who is currently logged into the system, use:
+```bash
+who
+```
+
+These commands provide a deeper understanding of the system you’re working on, helping you familiarize yourself with its capabilities and current state.
+
 
 > [!TIP]
 > **The Anatomy of a Command**
