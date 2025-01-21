@@ -23,8 +23,6 @@ Here are a few reasons why the command line is valuable:
 * Fundamentals of the permission system.
 * The basics of automating tasks with shell scripting.
 
-<br/>
----
 
 
 ## Getting Basic System Information
