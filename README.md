@@ -606,6 +606,9 @@ In this class, we learned:
 * Fundamentals of the permission system.
 * The basics of automating tasks with shell scripting.
 
+## Material Adopted from Software Carpentry Unix Shell lesson
+- https://swcarpentry.github.io/shell-novice/01-intro.html
+
 ## Further Learning
 Yale Center for Research Computing's Practical Introduction to Linux
 - https://research.computing.yale.edu/training/general-workshops/practical-introduction-linux
