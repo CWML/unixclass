@@ -606,7 +606,8 @@ In this class, we learned:
 * Fundamentals of the permission system.
 * The basics of automating tasks with shell scripting.
 
-## Material Adopted from Software Carpentry Unix Shell lesson licensed under CC-BY 4.0 
+## Material Adopted from Software Carpentry Unix Shell lesson 
+- Licensed under CC-BY 4.0(https://swcarpentry.github.io/shell-novice/LICENSE.html) 
 - https://swcarpentry.github.io/shell-novice/01-intro.html
 
 ## Further Learning
