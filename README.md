@@ -180,6 +180,7 @@ cd data
 cd /workspaces/unixclass/data
 cd ..
 cd ~
+cd -
 cd # shorthand in most systems to go back to home directory
 ```
 
